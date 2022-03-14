@@ -1,0 +1,59 @@
+:root {
+    --main-font-color: black;
+    --main-page-max-width: 1200px;
+  }
+  
+  html {
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Montserrat", Arial, sans-serif;
+    text-rendering: optimizeLegibilit;
+    color: black;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 5rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-align: center;
+  }
+  header h2 {
+    font-size: 2rem;
+    font-weight: 50;
+    text-align: center;
+  }
+  section {
+    max-width: var(--main-page-max-width);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+  }
+  section h2 {
+    margin: 1rem 0;  
+  }
+  .img-div {
+    font-size: 1em;
+    justify-content: center;
+    width: relative;
+    max-width: 100%;
+    align-items: center;
+    display:  flex;
+    flex-direction: column;
+  }
+  .tribute-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .info-text {
+    margin: 2 2rem;
+    padding: 2 2rem;
+  }
+  .info-text li {
+    margin: 5 5rem;
+    padding: 15px;
+    align-items: stretch;
+  }
